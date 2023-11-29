@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.titulo-contenedor {
+    text-align: center;
+}
+header {
+    background-color: #ef9ad3;
+    color: #020202;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para centrar la imagen */
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el menú principal con el ID menuprincipal */
+#menuprincipal {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menuprincipal li {
+    display: inline-block;
+    margin-right: 2px; /* Espacio entre botones */
+}
+
+#menuprincipal a {
+    display: block;
+    padding: 10px 20px; /* Espacio */
+    background-color: #eb4acb; /* fondo */
+    color: #060606; /* Color del texto */
+    text-decoration: none;
+    border: 2px solid #020202;
+    border-top: 2px solid #080808; 
+    border-bottom: 2px solid #050505;
+    /* Bordes*/
+}
+
+
+
+/* principal */
+main {
+    padding: 20px;
+}
+
+/*inicio*/
+#inicio {
+    background-color: #f2d6e7;
+    text-align: center;
+    padding: 20px;
+}
+
+#inicio h2 {
+    color: #020202;
+}
+
+#inicio p {
+    font-size: 20px;
+}
+
+#inicio img {
+    width: 400px; /* Ancho */
+    height: auto; /* Altura */
+    margin: 10px; /* Márgen */
+    border: 2px solid #000; /* Borde*/
+    
+}
+
+
+
+
+/* seccion alcancias */
+.seccion {
+    background-color: #ddf63a;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.titulo {
+    font-size: 24px; 
+    color: #020202;
+}
+
+
+.contenido {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las imágenes */
+.imagen img {
+  max-width: 100%; 
+  height: 300px; 
+  margin-bottom: 10px; 
+}
+
+
+.descripcion p {
+    font-size: 20px; 
+    color: #0d0d0d; 
+    text-align: center;
+}
+
+.descripcion strong {
+    font-weight: bold; /* Texto en negrita */
+}
+
+
+
+
+
+
+
+
+/*cocina*/
+#cocina {
+    background-color: #05c2a2;
+    text-align: center;
+    padding: 20px;
+}
+
+/*casa-jardin*/
+#casa-jardin {
+    background-color: #f55ab7;
+    text-align: center;
+    padding: 20px;
+}
+
+/*figuras religiosas*/
+#figuras-religiosas {
+    background-color: #f6a24e;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
